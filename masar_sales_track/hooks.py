@@ -144,7 +144,9 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
-
+doctype_js = {
+   "Customer" : "custom/customer/customer.js"
+ }
 # Scheduled Tasks
 # ---------------
 
@@ -242,3 +244,17 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+                "Customer-custom_signboard_type",
+                "Customer-custom_shop_evaluation",
+                "Customer-custom_column_break_2ga1k",
+                "Customer-custom_shop_sector",
+                "Customer-custom_number_of_doors",
+                "Customer-custom_section_break_9ahfy"
+            ]
+        ]
+    ]}
+]

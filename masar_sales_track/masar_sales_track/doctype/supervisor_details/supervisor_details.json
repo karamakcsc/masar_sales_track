@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-24 15:15:43.130751",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supervisor_id",
+  "column_break_nflu",
+  "empolyee_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "supervisor_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supervisor ID",
+   "options": "Sales Person"
+  },
+  {
+   "fieldname": "column_break_nflu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "supervisor_id.sales_person_name",
+   "fieldname": "empolyee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Empolyee Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-03 13:31:35.983168",
+ "modified_by": "Administrator",
+ "module": "Masar Sales Track",
+ "name": "Supervisor Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
