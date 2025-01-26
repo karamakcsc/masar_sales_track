@@ -56,12 +56,12 @@
  "fields": [
   {
    "fieldname": "section_break_fizf",
-   "fieldtype": "Section Break",
-   "hidden": 1
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Name",
    "options": "SHOP-VIS-."
   },
@@ -335,7 +335,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 13:26:12.741030",
+ "modified": "2025-01-26 13:28:39.904468",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
