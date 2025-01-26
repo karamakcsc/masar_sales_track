@@ -111,6 +111,7 @@
    "fetch_from": "shop_search.supervisor",
    "fieldname": "supervisor",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Supervisor",
    "options": "Supervisor",
    "read_only": 1
@@ -335,7 +336,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 13:35:31.662061",
+ "modified": "2025-01-26 14:35:05.625200",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
