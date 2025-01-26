@@ -1,7 +1,7 @@
 // Copyright (c) 2024, KCSC and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on("Shop Visit", {
+frappe.ui.form.on("Shop Event", {
     setup: function (frm) {
         frm.set_query("shop_management", function (doc) {
             return {
@@ -14,7 +14,7 @@ frappe.ui.form.on("Shop Visit", {
 });
 // Get the position before calling validate function
 navigator.geolocation.getCurrentPosition(function(position) {
-    frappe.ui.form.on('Shop Visit', {
+    frappe.ui.form.on('Shop Event', {
         validate: function(frm) {
             if (frm.is_new()) {
                 var longitude = position.coords.longitude;

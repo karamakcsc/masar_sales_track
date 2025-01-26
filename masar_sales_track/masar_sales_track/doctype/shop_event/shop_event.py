@@ -5,7 +5,7 @@ import frappe
 from frappe.model.document import Document
 from datetime import datetime
 
-class ShopVisit(Document):
+class ShopEvent(Document):
 	def on_update(self):
 		if not self.is_insert:
 			self.child_row = self.insert_start_time()
