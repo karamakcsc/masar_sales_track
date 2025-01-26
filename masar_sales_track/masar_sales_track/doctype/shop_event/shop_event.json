@@ -48,7 +48,6 @@
   "full_address",
   "section_break_ovry",
   "latitude",
-  "amended_from",
   "column_break_orml",
   "longitude"
  ],
@@ -263,16 +262,6 @@
    "read_only": 1
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Shop Visit",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "column_break_orml",
    "fieldtype": "Column Break"
   },
@@ -327,7 +316,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 12:52:37.204738",
+ "modified": "2025-01-26 13:19:11.137322",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
