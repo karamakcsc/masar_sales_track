@@ -7,8 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_fizf",
-  "naming_series",
+  "visit_type",
   "column_break_gwko",
+  "naming_series",
   "section_break_ztpj",
   "shop_search",
   "shop_name",
@@ -49,7 +50,8 @@
   "section_break_ovry",
   "latitude",
   "column_break_orml",
-  "longitude"
+  "longitude",
+  "amended_from"
  ],
  "fields": [
   {
@@ -311,12 +313,29 @@
    "fieldtype": "Data",
    "label": "Jotun Amount",
    "mandatory_depends_on": "eval:doc.order_purpose == 'Yes'"
+  },
+  {
+   "fieldname": "visit_type",
+   "fieldtype": "Select",
+   "label": "Visit Type",
+   "options": "\nCalling\nOn Site",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Shop Event",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 13:19:11.137322",
+ "modified": "2025-01-26 13:26:12.741030",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
