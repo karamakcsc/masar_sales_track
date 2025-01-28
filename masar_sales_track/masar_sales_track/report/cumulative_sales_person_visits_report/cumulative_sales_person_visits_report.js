@@ -4,6 +4,13 @@
 frappe.query_reports["Cumulative Sales Person Visits Report"] = {
 	"filters": [
 		{
+			"fieldname": "sales_person",
+			"label": __("Sales Person"),
+			"fieldtype": "Link",
+			"options": "Sales Person",
+			"width": 100,
+		},
+		{
 			"fieldname": "from",
 			"label": __("From Date"),
 			"fieldtype": "Date",

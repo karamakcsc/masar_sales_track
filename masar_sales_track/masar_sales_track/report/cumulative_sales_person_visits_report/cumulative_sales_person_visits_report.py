@@ -11,6 +11,8 @@ def execute(filters=None):
 def get_data(filters):
     conditions = " 1=1 "
     _from , to = filters.get('from'), filters.get('to')
+    if filters.get('sales_person'):
+        conditions += f" AND tse.sales_man = '{filters.get('sales_person')}'"
     if _from and to:
         conditions += f" AND tse.posting_date BETWEEN '{_from}' AND '{to}'"
     
