@@ -9,6 +9,7 @@
   "section_break_fizf",
   "visit_type",
   "column_break_gwko",
+  "posting_date",
   "naming_series",
   "section_break_ztpj",
   "shop_search",
@@ -189,7 +190,7 @@
    "depends_on": "eval: frappe.user.has_role('Sales Manager')",
    "fieldname": "process_time_tab",
    "fieldtype": "Table",
-   "label": "process Time",
+   "label": "Process Time",
    "options": "Shop Visits Details"
   },
   {
@@ -331,12 +332,19 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-28 09:31:38.149197",
+ "modified": "2025-01-28 12:30:45.606266",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
