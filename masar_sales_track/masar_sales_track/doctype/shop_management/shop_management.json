@@ -27,7 +27,18 @@
   "column_break_hroi",
   "contact_number",
   "section_break_zphr",
-  "amended_from"
+  "amended_from",
+  "location_tab",
+  "country",
+  "city",
+  "neighbourhood",
+  "road",
+  "date_time",
+  "column_break_qpdk",
+  "house_number",
+  "full_address",
+  "latitude",
+  "longitude"
  ],
  "fields": [
   {
@@ -153,12 +164,76 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "location_tab",
+   "fieldtype": "Tab Break",
+   "label": "Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country",
+   "read_only": 1
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "read_only": 1
+  },
+  {
+   "fieldname": "neighbourhood",
+   "fieldtype": "Data",
+   "label": "Neighbourhood",
+   "read_only": 1
+  },
+  {
+   "fieldname": "road",
+   "fieldtype": "Data",
+   "label": "Road",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qpdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "label": "House Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "full_address",
+   "fieldtype": "Data",
+   "label": "Full Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude",
+   "read_only": 1
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "label": "Date Time",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 14:34:31.098608",
+ "modified": "2025-01-28 09:55:57.062536",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Management",

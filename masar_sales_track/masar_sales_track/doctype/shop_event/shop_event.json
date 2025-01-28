@@ -147,9 +147,9 @@
    "read_only": 1
   },
   {
+   "default": "Open",
    "fieldname": "status",
    "fieldtype": "Select",
-   "hidden": 1,
    "in_list_view": 1,
    "label": "Status",
    "options": "\nOpen\nHold\nComplete"
@@ -336,7 +336,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-26 14:35:05.625200",
+ "modified": "2025-01-28 09:31:38.149197",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
