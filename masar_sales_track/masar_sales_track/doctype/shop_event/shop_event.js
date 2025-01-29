@@ -15,8 +15,7 @@ frappe.ui.form.on("Shop Event", {
 // Get the position before calling validate function
 navigator.geolocation.getCurrentPosition(function(position) {
     frappe.ui.form.on('Shop Event', {
-        validate: function(frm) {
-            if (frm.is_new()) {
+        before_submit: function(frm) {
                 var longitude = position.coords.longitude;
                 var latitude = position.coords.latitude;
 
@@ -37,7 +36,6 @@ navigator.geolocation.getCurrentPosition(function(position) {
                         console.error("Error fetching address from coordinates:", status, error);
                     }
                 });
-            }
         }
     });
 });

@@ -7,12 +7,13 @@ from datetime import datetime
 
 class ShopEvent(Document):
 	def on_update(self):
-		if not self.is_insert:
-			self.child_row = self.insert_start_time()
-		elif not self.is_closed_row:
-			self.insert_end_time()
-		elif self.is_closed_row ==1 and self.is_insert==1:
-			self.insert_event_row()
+		pass
+		# if not self.is_insert:
+		# 	self.child_row = self.insert_start_time()
+		# elif not self.is_closed_row:
+		# 	self.insert_end_time()
+		# elif self.is_closed_row ==1 and self.is_insert==1:
+		# 	self.insert_event_row()
 		
 	def insert_start_time(self):
 		try:

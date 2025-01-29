@@ -151,7 +151,7 @@
    "default": "Open",
    "fieldname": "status",
    "fieldtype": "Select",
-   "in_list_view": 1,
+   "hidden": 1,
    "label": "Status",
    "options": "\nOpen\nHold\nComplete"
   },
@@ -177,6 +177,7 @@
   {
    "fieldname": "collection_amount",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Collection Amount",
    "options": "\nYes\nNo",
    "reqd": 1
@@ -284,6 +285,7 @@
   {
    "fieldname": "uniguard_sales",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Uniguard Sales",
    "options": "\nYes\nNo",
    "reqd": 1
@@ -291,6 +293,7 @@
   {
    "fieldname": "jotun_slaes",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Jotun Slaes",
    "options": "\nYes\nNo",
    "reqd": 1
@@ -319,6 +322,7 @@
   {
    "fieldname": "visit_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Visit Type",
    "options": "\nCall Order\nOn Site",
    "reqd": 1
@@ -344,7 +348,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-28 12:30:45.606266",
+ "modified": "2025-01-29 10:06:38.171663",
  "modified_by": "Administrator",
  "module": "Masar Sales Track",
  "name": "Shop Event",
