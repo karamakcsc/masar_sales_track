@@ -29,7 +29,7 @@ frappe.ui.form.on("Shop Management", {
 });
 navigator.geolocation.getCurrentPosition(function(position) {
     frappe.ui.form.on('Shop Management', {
-        before_submit: function(frm) {
+        on_submit: function(frm) {
                 var longitude = position.coords.longitude;
                 var latitude = position.coords.latitude;
 
