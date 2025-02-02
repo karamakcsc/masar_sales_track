@@ -18,13 +18,6 @@ frappe.query_reports["Sales Person Visits Report"] = {
 			"width": 100,
 		},
 		{
-			"fieldname": "status",
-			"label": __("Status"),
-			"fieldtype": "Select",
-			"options": "\nOpen\nHold\nComplete",
-			"width": 100,
-		},
-		{
 			"fieldname": "from",
 			"label": __("From Date"),
 			"fieldtype": "Date",
